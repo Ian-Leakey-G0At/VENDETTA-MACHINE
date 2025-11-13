@@ -1,17 +1,13 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Epilogue } from "next/font/google";
+import { Poppins } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({
+const poppins = Poppins({
   subsets: ["latin"],
-  variable: "--font-space-grotesk",
-});
-
-const epilogue = Epilogue({
-  subsets: ["latin"],
-  variable: "--font-epilogue",
+  weight: ["400", "700", "800"],
+  variable: "--font-poppins",
 });
 
 export const metadata: Metadata = {
@@ -26,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.variable} ${epilogue.variable} font-sans`}>
+      <body className={`${poppins.variable} font-sans`}>
         <div className="relative flex min-h-screen w-full flex-col">
           <Header />
           <main className="flex h-full grow flex-col">{children}</main>

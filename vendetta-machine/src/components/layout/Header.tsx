@@ -48,14 +48,7 @@ const Header = () => (
           </Link>
         </nav>
 
-        <div className="hidden md:flex items-center gap-4">
-          <button className="px-4 py-2 text-sm font-medium text-text-primary bg-surface border border-border rounded-lg hover:bg-border transition-colors">
-            Sign In
-          </button>
-          <button className="px-4 py-2 text-sm font-bold text-white bg-gradient-primary rounded-lg hover:opacity-90 transition-opacity">
-            Sign Up
-          </button>
-        </div>
+        {/* Auth buttons removed — navigation now shows only links and menu */}
 
         <div className="md:hidden">
           <button className="text-text-primary">

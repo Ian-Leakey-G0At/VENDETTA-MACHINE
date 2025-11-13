@@ -2,6 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Define dark theme palette */
+:root {
+  --color-background: #121212;
+  --color-surface: #1E1E1E;
+  --color-primary: #BB86FC;
+  --color-secondary: #03DAC6;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #B0B0B0;
+  --color-border: #292929;
+  --color-highlight: #3700B3;
+}
+
+/* Apply dark theme styles */
 body {
-  @apply bg-background text-text-primary font-display;
+  @apply bg-[var(--color-background)] text-[var(--color-text-primary)] font-sans;
+}
+
+a {
+  @apply text-[var(--color-primary)] hover:text-[var(--color-highlight)] transition-colors;
+}
+
+button {
+  @apply bg-[var(--color-surface)] text-[var(--color-text-primary)] border border-[var(--color-border)] rounded-lg px-4 py-2 hover:bg-[var(--color-border)] transition;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+/* Spacing */
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
 }

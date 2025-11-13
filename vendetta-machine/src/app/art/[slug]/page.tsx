@@ -2,6 +2,7 @@ import { schematics } from "@/lib/schematics";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SchematicCard from "@/components/ui/SchematicCard";
+import Image from "next/image";
 
 export async function generateStaticParams() {
   return schematics.map((schematic) => ({
@@ -24,9 +25,11 @@ export default function Page({ params }: { params: { slug: string } }) {
     <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
-          <img
+          <Image
             src={schematic.image_url}
             alt={schematic.name}
+            width={500}
+            height={500}
             className="w-full h-auto aspect-square object-cover rounded-xl"
           />
         </div>

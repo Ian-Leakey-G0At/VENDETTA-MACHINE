@@ -1,13 +1,16 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Schematic } from "@/lib/schematics";
 
 const SchematicCard = ({ schematic }: { schematic: Schematic }) => (
   <Link href={`/art/${schematic.id}`} className="group block">
     <div className="relative overflow-hidden bg-surface rounded-lg">
       <div className="aspect-[3/4] w-full">
-        <img
+        <Image
           src={schematic.image_url}
           alt={schematic.name}
+          width={300}
+          height={400}
           className="object-cover w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-105"
         />
       </div>

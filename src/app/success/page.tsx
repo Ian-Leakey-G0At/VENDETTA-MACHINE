@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import KeyForgingNotice from '@/components/KeyForgingNotice'
 
 type Props = {
   searchParams?: {
@@ -30,6 +31,8 @@ export default function SuccessPage({ searchParams }: Props) {
       ) : (
         <p className="mb-6">If you provided an email at checkout, a receipt will arrive shortly.</p>
       )}
+
+      <KeyForgingNotice />
 
       <div className="flex flex-col items-center gap-4">
         <Link href="/">

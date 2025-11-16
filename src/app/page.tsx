@@ -11,7 +11,7 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-        {schematics.slice(0, 9).map((schematic) => (
+        {schematics.slice(0, 10).map((schematic) => (
           <SchematicCard key={schematic.id} schematic={schematic} />
         ))}
       </div>

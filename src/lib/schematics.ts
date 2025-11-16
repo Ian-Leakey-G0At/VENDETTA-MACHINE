@@ -96,7 +96,7 @@ export const schematics: Schematic[] = [
     artist: "VendettaMachine",
     image_url: "/next.svg",
     description: "Placeholder description for eggplant-method-1.",
-    price: 0,
+    price: 22.30,
     polar_checkout_url: "https://buy.polar.sh/polar_cl_dEKHOZVyjRudaZTk2Ii72pSdRZW6kw8LhPoie3ETWx8",
   },
 ];

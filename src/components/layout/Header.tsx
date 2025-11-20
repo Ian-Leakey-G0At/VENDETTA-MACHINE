@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Logo from "@/components/icons/Logo";
+import { Logo } from "@/components/ui/Logo";
 import { useState } from "react";
 
 const MenuIcon = () => (
@@ -25,13 +25,13 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-[var(--color-surface)] border-b border-[var(--color-border)]">
+    <header className="sticky top-0 z-50 w-full bg-[var(--color-surface)] border-b border-[var(--color-border)] backdrop-blur-md">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-4">
             <Link href="/" className="flex items-center gap-3">
-              <div className="h-8 w-8 text-[var(--color-primary)]">
-                <Logo />
+              <div className="text-[var(--color-primary)]">
+                <Logo className="w-10 h-10" />
               </div>
               <span className="text-xl font-bold text-[var(--color-text-primary)]">
                 Vendetta Machine

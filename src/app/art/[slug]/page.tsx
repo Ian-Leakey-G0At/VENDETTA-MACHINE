@@ -49,13 +49,13 @@ export default function Page({ params }: { params: { slug: string } }) {
               </Link>
             </p>
             <div className="h-px bg-[var(--color-border)] w-full" />
-            <p className="text-[var(--color-text-secondary)] leading-relaxed">
+            <p className="text-[var(--color-text-secondary)] leading-relaxed text-sm font-light opacity-80">
               {schematic.description}
             </p>
             <div className="mt-8 flex flex-col gap-6">
               <div className="flex items-baseline gap-2">
                 <span className="text-sm text-[var(--color-text-secondary)] uppercase tracking-widest">Price</span>
-                <p className="text-3xl font-bold text-white">${schematic.price}</p>
+                <p className="text-3xl font-bold text-white">${schematic.price.toFixed(2)}</p>
               </div>
               <a
                 href={schematic.polar_checkout_url}

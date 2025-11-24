@@ -15,7 +15,7 @@ export const schematics: Schematic[] = [
     artist: "VendettaMachine",
     image_url: "/onsite/guy-fawkes-1.jpeg",
     description: "A fractured mask emerging from digital static, symbolizing the eternal recurrence of rebellion in the age of surveillance.",
-    price: 57,
+    price: 62.00,
     polar_checkout_url: "https://buy.polar.sh/polar_cl_ERL8YtZIFhjb3W4HT7TS0WgYxHNGstvuRIFZn1Dxij7",
   },
   {
@@ -24,7 +24,7 @@ export const schematics: Schematic[] = [
     artist: "VendettaMachine",
     image_url: "/onsite/guy-fawkes-2.jpeg",
     description: "Neon-soaked shadows drape over the iconic visage, a silent promise of chaos in a perfectly ordered system.",
-    price: 57,
+    price: 62.00,
     polar_checkout_url: "https://buy.polar.sh/polar_cl_4dSuQed8uOjuSlNb1C2gf4a8Ou2wYTYHs6kcY4VdMiF",
   },
   {
@@ -33,7 +33,7 @@ export const schematics: Schematic[] = [
     artist: "VendettaMachine",
     image_url: "/onsite/guy-fawkes-3.jpeg",
     description: "The smile of the anonymous, rendered in high-fidelity despair, watching the world burn from the safety of the screen.",
-    price: 57,
+    price: 62.00,
     polar_checkout_url: "https://buy.polar.sh/polar_cl_QuR65pK6iK6rU7szsQH0Qt6IQTcLoaYCUFs3P49baql",
   },
   {
@@ -42,7 +42,7 @@ export const schematics: Schematic[] = [
     artist: "VendettaMachine",
     image_url: "/onsite/guy-fawkes-4.jpeg",
     description: "A glitch in the matrix, where the lines of history blur into a single, defiant stare against the machine.",
-    price: 57,
+    price: 62.00,
     polar_checkout_url: "https://buy.polar.sh/polar_cl_XvYAJSK6J7EpftwCzp8lD7MH7KyVYJQbcSorf1ZdudB",
   },
   {
@@ -51,7 +51,7 @@ export const schematics: Schematic[] = [
     artist: "VendettaMachine",
     image_url: "/onsite/guy-fawkes-5.jpeg",
     description: "Chrome and gunpowder, a portrait of the idea that cannot be killed, reflecting the viewer's own complicity.",
-    price: 57,
+    price: 62.00,
     polar_checkout_url: "https://buy.polar.sh/polar_cl_nzPObfXVVmBiV4VVsnq5q1eYxz08JYteEdijB1srfne",
   },
   {
@@ -60,7 +60,7 @@ export const schematics: Schematic[] = [
     artist: "VendettaMachine",
     image_url: "/onsite/guy-fawkes-6.jpeg",
     description: "Subliminal messages hidden in the brushstrokes of a revolutionary icon, waiting to be decoded by the awakened.",
-    price: 57,
+    price: 62.00,
     polar_checkout_url: "https://buy.polar.sh/polar_cl_2TpAfcwrDIUbEB7gN5SzCDZIq7O3e9D1jq6px1sTnjK",
   },
   {
@@ -69,7 +69,7 @@ export const schematics: Schematic[] = [
     artist: "VendettaMachine",
     image_url: "/onsite/guy-fawkes-7.jpeg",
     description: "The ghost of November 5th, digitized and immortalized, haunting the servers of the establishment.",
-    price: 57,
+    price: 222.00,
     polar_checkout_url: "https://buy.polar.sh/polar_cl_cN2zRmTXjCtldWeeljaPR4RurlfB9Lpr9Utg21Tc36i",
   },
   {
@@ -78,7 +78,7 @@ export const schematics: Schematic[] = [
     artist: "VendettaMachine",
     image_url: "/onsite/guy-fawkes-8.jpeg",
     description: "A symphony of dissonance and defiance, capturing the moment before the explosion, frozen in time.",
-    price: 57,
+    price: 123.00,
     polar_checkout_url: "https://buy.polar.sh/polar_cl_xmMdHspfs4jIMbeja80gD7pgvSV6j0w2mi5Wk4Uza8f",
   },
   {
@@ -87,7 +87,7 @@ export const schematics: Schematic[] = [
     artist: "VendettaMachine",
     image_url: "/onsite/guy-fawkes-9.jpeg",
     description: "The final masquerade, where identity dissolves into a collective will, staring back from the abyss of the internet.",
-    price: 57,
+    price: 87.00,
     polar_checkout_url: "https://buy.polar.sh/polar_cl_yFz3BVOFv3ivbWgitCWCvoZkixsCIvCY9zTXL2P3aZH",
   },
   {
